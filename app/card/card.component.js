@@ -14,6 +14,9 @@ var task_1 = require("../model/task");
 var CardComponent = (function () {
     function CardComponent() {
     }
+    CardComponent.prototype.statusToggle = function () {
+        this.task.completed = !this.task.completed;
+    };
     return CardComponent;
 }());
 __decorate([

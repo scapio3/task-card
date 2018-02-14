@@ -1,12 +1,21 @@
 .card{
     border-radius: 0;
- 
-    
+    margin:5px;
+   
 
+}
+.card-block{
+    padding: 5px;
 }
 .card,.card-footer{
     background-color: #FFFFA5;
     border: none;
+}
+.card.complete,
+.card.complete .card-footer{
+    background-color: #EEE;
+    color: #CCC;
+
 }
 .card-footer{text-align: right}
 i {
