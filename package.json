@@ -1,7 +1,7 @@
 {
-    "name": "Skeleton",
+    "name": "TaskCard",
     "version": "1.0.0",
-    "description": "Skeleton applicattion for Angular 2 ",
+    "description": "Task Card application  ",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
         "lite": "lite-server",
